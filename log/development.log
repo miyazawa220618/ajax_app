@@ -16,3 +16,630 @@ Migrating to CreatePosts (20201130073215)
   [1m[35m (26.8ms)[0m  [1m[35mCOMMIT[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT RELEASE_LOCK('7209158273134045305')[0m
   [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Started GET "/" for ::1 at 2022-08-11 16:12:44 +0900
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 10.6ms | Allocations: 2392)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/cuckcoo/projects/ajax_app/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 723d3d26ed117f081b59
+Version: webpack 4.46.0
+Time: 2089ms
+Built at: 2022/08/11 16:12:49
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-69f1934bcb81066d6a9f.js    120 KiB  application  [emitted] [immutable]  application
+js/application-69f1934bcb81066d6a9f.js.map    136 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-69f1934bcb81066d6a9f.js js/application-69f1934bcb81066d6a9f.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/packs/application.js] 749 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4845ms (Views: 4803.1ms | ActiveRecord: 12.3ms | Allocations: 24289)
+
+
+Started GET "/" for ::1 at 2022-08-11 16:13:33 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1741)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 15.6ms | ActiveRecord: 0.4ms | Allocations: 6751)
+
+
+Started GET "/" for ::1 at 2022-08-11 16:31:39 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 6.5ms | Allocations: 1465)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/cuckcoo/projects/ajax_app/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 172529db3bd47e2f0514
+Version: webpack 4.46.0
+Time: 1383ms
+Built at: 2022/08/11 16:31:43
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-09c3307763b99ec8dffd.js    121 KiB  application  [emitted] [immutable]  application
+js/application-09c3307763b99ec8dffd.js.map    136 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-09c3307763b99ec8dffd.js js/application-09c3307763b99ec8dffd.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/memo.js] 98 bytes {application} [built]
+[./app/javascript/packs/application.js] 770 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 4588ms (Views: 4577.2ms | ActiveRecord: 1.0ms | Allocations: 7630)
+
+
+Started GET "/" for ::1 at 2022-08-11 16:35:33 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.1ms | Allocations: 1502)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/cuckcoo/projects/ajax_app/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 4b63867ceda373b3a33f
+Version: webpack 4.46.0
+Time: 1008ms
+Built at: 2022/08/11 16:35:36
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-92356e2bdbcf1b7dd8c1.js    121 KiB  application  [emitted] [immutable]  application
+js/application-92356e2bdbcf1b7dd8c1.js.map    136 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-92356e2bdbcf1b7dd8c1.js js/application-92356e2bdbcf1b7dd8c1.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/memo.js] 205 bytes {application} [built]
+[./app/javascript/packs/application.js] 770 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3117ms (Views: 3115.9ms | ActiveRecord: 0.4ms | Allocations: 6744)
+
+
+Started POST "/posts" for ::1 at 2022-08-11 16:35:45 +0900
+Processing by PostsController#create as JS
+  Parameters: {"authenticity_token"=>"rl1DxvOoRG9Vq5gUGjLU7BgJfk0Ivt2L7CVUxyWkvYY1q6BFgydeW175NKtqcQN13UD0Dr0mcBw3419yMIjNMA==", "content"=>"メモ1", "commit"=>"投稿する"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[36mPost Create (3.4ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('メモ1', '2022-08-11 07:35:45.125345', '2022-08-11 07:35:45.125345')[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[35m (1.4ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 200 OK in 34ms (ActiveRecord: 18.5ms | Allocations: 6105)
+
+
+Started GET "/" for ::1 at 2022-08-11 16:35:45 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.7ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.8ms | Allocations: 1535)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 16ms (Views: 12.8ms | ActiveRecord: 1.7ms | Allocations: 5619)
+
+
+Started GET "/" for ::1 at 2022-08-11 16:48:06 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1526)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/cuckcoo/projects/ajax_app/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: ace40d4151955e43255e
+Version: webpack 4.46.0
+Time: 1065ms
+Built at: 2022/08/11 16:48:10
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-c7291d3d36c7ed3d7555.js    121 KiB  application  [emitted] [immutable]  application
+js/application-c7291d3d36c7ed3d7555.js.map    136 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-c7291d3d36c7ed3d7555.js js/application-c7291d3d36c7ed3d7555.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/memo.js] 382 bytes {application} [built]
+[./app/javascript/packs/application.js] 770 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3397ms (Views: 3396.3ms | ActiveRecord: 0.4ms | Allocations: 6780)
+
+
+Started POST "/posts" for ::1 at 2022-08-11 16:48:28 +0900
+Processing by PostsController#create as JS
+  Parameters: {"authenticity_token"=>"JVoV2LkBEz0WzT5g0cKyJeGims0W/4FQFmY0W72Id9u+rPZbyY4JCR2fkt+hgWW8JOsQjqNnLMfNoD/uqKQHbQ==", "content"=>"新規投稿", "commit"=>"投稿する"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[36mPost Create (2.6ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('新規投稿', '2022-08-11 07:48:28.775924', '2022-08-11 07:48:28.775924')[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[35m (2.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 200 OK in 13ms (ActiveRecord: 5.1ms | Allocations: 3850)
+
+
+Started GET "/" for ::1 at 2022-08-11 16:48:28 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.9ms | Allocations: 1607)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 19ms (Views: 17.4ms | ActiveRecord: 0.5ms | Allocations: 6349)
+
+
+Started POST "/posts" for ::1 at 2022-08-11 16:48:28 +0900
+Processing by PostsController#create as */*
+  Parameters: {"authenticity_token"=>"JVoV2LkBEz0WzT5g0cKyJeGims0W/4FQFmY0W72Id9u+rPZbyY4JCR2fkt+hgWW8JOsQjqNnLMfNoD/uqKQHbQ==", "content"=>"新規投稿"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[36mPost Create (1.3ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('新規投稿', '2022-08-11 07:48:28.834104', '2022-08-11 07:48:28.834104')[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 2.0ms | Allocations: 2891)
+
+
+Started GET "/" for ::1 at 2022-08-11 16:48:28 +0900
+Processing by PostsController#index as */*
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.4ms | Allocations: 1562)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.4ms | Allocations: 5813)
+
+
+Started GET "/" for ::1 at 2022-08-11 17:05:02 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 13.6ms | Allocations: 1564)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/cuckcoo/projects/ajax_app/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 35c9235ba24b91e34580
+Version: webpack 4.46.0
+Time: 969ms
+Built at: 2022/08/11 17:05:05
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-d3828af7cac3435d723c.js    121 KiB  application  [emitted] [immutable]  application
+js/application-d3828af7cac3435d723c.js.map    137 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-d3828af7cac3435d723c.js js/application-d3828af7cac3435d723c.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/memo.js] 407 bytes {application} [built]
+[./app/javascript/packs/application.js] 770 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3427ms (Views: 3416.9ms | ActiveRecord: 1.0ms | Allocations: 6821)
+
+
+Started POST "/posts" for ::1 at 2022-08-11 17:05:28 +0900
+Processing by PostsController#create as */*
+  Parameters: {"authenticity_token"=>"yZ2vc4pMPXm0EhUPxoBxqvovrbdqJKBjZUJCr1TgljhSa0zw+sMnTb9AubC2w6YzP2Yn9N+8DfS+hEkaQczmjg==", "content"=>"220811_17:05投稿"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[36mPost Create (0.7ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('220811_17:05投稿', '2022-08-11 08:05:28.669364', '2022-08-11 08:05:28.669364')[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[35m (1.3ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 10ms (ActiveRecord: 2.4ms | Allocations: 2895)
+
+
+Started GET "/" for ::1 at 2022-08-11 17:05:28 +0900
+Processing by PostsController#index as */*
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.7ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.8ms | Allocations: 1587)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 15ms (Views: 12.7ms | ActiveRecord: 0.7ms | Allocations: 5679)
+
+
+Started POST "/posts" for ::1 at 2022-08-11 17:05:48 +0900
+Processing by PostsController#create as */*
+  Parameters: {"authenticity_token"=>"yZ2vc4pMPXm0EhUPxoBxqvovrbdqJKBjZUJCr1TgljhSa0zw+sMnTb9AubC2w6YzP2Yn9N+8DfS+hEkaQczmjg==", "content"=>"220811_17:05投稿"}
+  [1m[35m (0.2ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[36mPost Create (0.2ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('220811_17:05投稿', '2022-08-11 08:05:48.856520', '2022-08-11 08:05:48.856520')[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[35m (30.9ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 36ms (ActiveRecord: 31.4ms | Allocations: 2893)
+
+
+Started GET "/" for ::1 at 2022-08-11 17:05:48 +0900
+Processing by PostsController#index as */*
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 2.5ms | Allocations: 1607)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.4ms | Allocations: 5699)
+
+
+Started POST "/posts" for ::1 at 2022-08-11 17:05:50 +0900
+Processing by PostsController#create as */*
+  Parameters: {"authenticity_token"=>"yZ2vc4pMPXm0EhUPxoBxqvovrbdqJKBjZUJCr1TgljhSa0zw+sMnTb9AubC2w6YzP2Yn9N+8DfS+hEkaQczmjg==", "content"=>"220811_17:05投稿"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('220811_17:05投稿', '2022-08-11 08:05:50.589186', '2022-08-11 08:05:50.589186')[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[35m (0.5ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 1.2ms | Allocations: 2900)
+
+
+Started GET "/" for ::1 at 2022-08-11 17:05:50 +0900
+Processing by PostsController#index as */*
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1628)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 13ms (Views: 11.1ms | ActiveRecord: 0.5ms | Allocations: 5720)
+
+
+Started GET "/" for ::1 at 2022-08-11 17:06:00 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.0ms | Allocations: 1628)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 14ms (Views: 12.9ms | ActiveRecord: 0.4ms | Allocations: 5724)
+
+
+Started GET "/" for ::1 at 2022-08-11 17:08:00 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.3ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.2ms | Allocations: 1628)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 18ms (Views: 17.3ms | ActiveRecord: 0.3ms | Allocations: 5724)
+
+
+Started GET "/" for ::1 at 2022-08-11 17:16:31 +0900
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT `schema_migrations`.`version` FROM `schema_migrations` ORDER BY `schema_migrations`.`version` ASC[0m
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (17.1ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 30.6ms | Allocations: 4772)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 107ms (Views: 49.2ms | ActiveRecord: 33.3ms | Allocations: 14276)
+
+
+Started POST "/posts" for ::1 at 2022-08-11 17:17:06 +0900
+Processing by PostsController#create as */*
+  Parameters: {"authenticity_token"=>"5esa/3BCi7HW9g2VNGcU/E7JJILn35xJEuDbXiWzzCV+Hfl8AM2Rhd2koSpEJMNli4CuwVJHMd7JJtDrMJ+8kw==", "content"=>"メモ_1717"}
+  [1m[35m (0.4ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:12:in `create'
+  [1m[36mPost Create (4.0ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('メモ_1717', '2022-08-11 08:17:21.451259', '2022-08-11 08:17:21.451259')[0m
+  ↳ app/controllers/posts_controller.rb:12:in `create'
+  [1m[35m (4.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:12:in `create'
+Redirected to http://localhost:3000/
+Completed 302 Found in 14901ms (ActiveRecord: 8.6ms | Allocations: 17938)
+
+
+Started GET "/" for ::1 at 2022-08-11 17:17:21 +0900
+Processing by PostsController#index as */*
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 3.3ms | Allocations: 1650)
+[Webpacker] Everything's up-to-date. Nothing to do
+Completed 200 OK in 23ms (Views: 19.8ms | ActiveRecord: 0.4ms | Allocations: 5897)
+
+
+Started GET "/" for ::1 at 2022-08-11 17:25:19 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.4ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 5.6ms | Allocations: 3873)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/cuckcoo/projects/ajax_app/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: ab9f7e17075de7d34b42
+Version: webpack 4.46.0
+Time: 988ms
+Built at: 2022/08/11 17:25:23
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-79dac98cd4904209f935.js    121 KiB  application  [emitted] [immutable]  application
+js/application-79dac98cd4904209f935.js.map    137 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-79dac98cd4904209f935.js js/application-79dac98cd4904209f935.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/memo.js] 479 bytes {application} [built]
+[./app/javascript/packs/application.js] 770 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3373ms (Views: 3368.6ms | ActiveRecord: 0.4ms | Allocations: 10058)
+
+
+Started POST "/posts" for ::1 at 2022-08-11 17:25:37 +0900
+Processing by PostsController#create as */*
+  Parameters: {"authenticity_token"=>"Y8cSTBkXI5V/ROj5BBh+fvzuayZ3yCeWET46dU+KdSb4MfHPaZg5oXQWREZ0W6nnOafhZcJQigHK+DHAWqYFkA==", "content"=>"メモ0811a"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[36mPost Create (23.3ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('メモ0811a', '2022-08-11 08:25:37.599310', '2022-08-11 08:25:37.599310')[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[35m (75.2ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+Completed 200 OK in 105ms (Views: 0.5ms | ActiveRecord: 98.8ms | Allocations: 2951)
+
+
+Started GET "/" for ::1 at 2022-08-11 17:31:07 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.6ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 13.7ms | Allocations: 1671)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/cuckcoo/projects/ajax_app/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 49280da37f7fc0db5b29
+Version: webpack 4.46.0
+Time: 1177ms
+Built at: 2022/08/11 17:31:11
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-18253d2f85abd79825f7.js    121 KiB  application  [emitted] [immutable]  application
+js/application-18253d2f85abd79825f7.js.map    137 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-18253d2f85abd79825f7.js js/application-18253d2f85abd79825f7.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/memo.js] 872 bytes {application} [built]
+[./app/javascript/packs/application.js] 770 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3994ms (Views: 3983.1ms | ActiveRecord: 1.6ms | Allocations: 6929)
+
+
+Started POST "/posts" for ::1 at 2022-08-11 17:31:22 +0900
+Processing by PostsController#create as */*
+  Parameters: {"authenticity_token"=>"8yG8Dhq58OSbhKv1WUpZ8VhYxepFcD26pZodv88/V2po11+Najbq0JDWB0opCY5onRFPqfDokC1+XBYK2hMn3A==", "content"=>"メモ0811b"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[36mPost Create (1.6ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('メモ0811b', '2022-08-11 08:31:22.175258', '2022-08-11 08:31:22.175258')[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[35m (2.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+Completed 200 OK in 14ms (Views: 0.7ms | ActiveRecord: 4.0ms | Allocations: 2923)
+
+
+Started GET "/" for ::1 at 2022-08-11 17:32:48 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (0.5ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 6.6ms | Allocations: 1930)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/cuckcoo/projects/ajax_app/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: ddd8b7320522bca83e06
+Version: webpack 4.46.0
+Time: 1038ms
+Built at: 2022/08/11 17:32:51
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48c5b061553b65975d2d.js    121 KiB  application  [emitted] [immutable]  application
+js/application-48c5b061553b65975d2d.js.map    137 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48c5b061553b65975d2d.js js/application-48c5b061553b65975d2d.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/memo.js] 964 bytes {application} [built]
+[./app/javascript/packs/application.js] 770 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3168ms (Views: 3164.9ms | ActiveRecord: 0.5ms | Allocations: 8099)
+
+
+Started POST "/posts" for ::1 at 2022-08-11 17:32:58 +0900
+Processing by PostsController#create as */*
+  Parameters: {"authenticity_token"=>"3dvI53/n5dHsBSlKGmtPdhqRyzpr5rc3MKxxVZJ0EVxGLStkD2j/5edXhfVqKJjv39hBed5+GqDranrgh1hh6g==", "content"=>"メモ0811c"}
+  [1m[35m (0.3ms)[0m  [1m[35mBEGIN[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[36mPost Create (0.4ms)[0m  [1m[32mINSERT INTO `posts` (`content`, `created_at`, `updated_at`) VALUES ('メモ0811c', '2022-08-11 08:32:58.064159', '2022-08-11 08:32:58.064159')[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+  [1m[35m (1.1ms)[0m  [1m[35mCOMMIT[0m
+  ↳ app/controllers/posts_controller.rb:11:in `create'
+Completed 200 OK in 7ms (Views: 0.5ms | ActiveRecord: 1.8ms | Allocations: 2919)
+
+
+Started GET "/" for ::1 at 2022-08-11 18:25:29 +0900
+Processing by PostsController#index as HTML
+  Rendering posts/index.html.erb within layouts/application
+  [1m[36mPost Load (1.0ms)[0m  [1m[34mSELECT `posts`.* FROM `posts` ORDER BY `posts`.`id` DESC[0m
+  ↳ app/views/posts/index.html.erb:10
+  Rendered posts/index.html.erb within layouts/application (Duration: 11.7ms | Allocations: 1719)
+[Webpacker] Compiling...
+[Webpacker] Compiled all packs in /Users/cuckcoo/projects/ajax_app/public/packs
+[Webpacker] Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-property-in-object since the "loose" mode option was set to "true" for @babel/plugin-proposal-class-properties.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-property-in-object", { "loose": true }]
+to the "plugins" section of your Babel config.
+Though the "loose" option was set to "false" in your @babel/preset-env config, it will not be used for @babel/plugin-proposal-private-methods since the "loose" mode option was set to "true" for @babel/plugin-proposal-private-property-in-object.
+The "loose" option must be the same for @babel/plugin-proposal-class-properties, @babel/plugin-proposal-private-methods and @babel/plugin-proposal-private-property-in-object (when they are enabled): you can silence this warning by explicitly adding
+	["@babel/plugin-proposal-private-methods", { "loose": true }]
+to the "plugins" section of your Babel config.
+
+[Webpacker] Hash: 74faa8d3e3cec028a3e2
+Version: webpack 4.46.0
+Time: 1459ms
+Built at: 2022/08/11 18:25:33
+                                     Asset       Size       Chunks                         Chunk Names
+    js/application-48354d969d82a4509440.js    122 KiB  application  [emitted] [immutable]  application
+js/application-48354d969d82a4509440.js.map    137 KiB  application  [emitted] [dev]        application
+                             manifest.json  364 bytes               [emitted]              
+Entrypoint application = js/application-48354d969d82a4509440.js js/application-48354d969d82a4509440.js.map
+[./app/javascript/channels sync recursive _channel\.js$] ./app/javascript/channels sync _channel\.js$ 160 bytes {application} [built]
+[./app/javascript/channels/index.js] 211 bytes {application} [built]
+[./app/javascript/memo.js] 1.1 KiB {application} [built]
+[./app/javascript/packs/application.js] 770 bytes {application} [built]
+    + 3 hidden modules
+
+Completed 200 OK in 3973ms (Views: 3964.3ms | ActiveRecord: 1.0ms | Allocations: 6978)
+
+
+Started POST "/post" for ::1 at 2022-08-11 18:25:46 +0900
+  
+ActionController::RoutingError (No route matches [POST] "/post"):
+  
+actionpack (6.0.5.1) lib/action_dispatch/middleware/debug_exceptions.rb:36:in `call'
+web-console (4.2.0) lib/web_console/middleware.rb:132:in `call_app'
+web-console (4.2.0) lib/web_console/middleware.rb:28:in `block in call'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `catch'
+web-console (4.2.0) lib/web_console/middleware.rb:17:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (6.0.5.1) lib/rails/rack/logger.rb:37:in `call_app'
+railties (6.0.5.1) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:80:in `block in tagged'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (6.0.5.1) lib/active_support/tagged_logging.rb:80:in `tagged'
+railties (6.0.5.1) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.4.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.4) lib/rack/method_override.rb:24:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (6.0.5.1) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/static.rb:126:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (6.0.5.1) lib/action_dispatch/middleware/host_authorization.rb:103:in `call'
+webpacker (4.3.0) lib/webpacker/dev_server_proxy.rb:23:in `perform_request'
+rack-proxy (0.7.2) lib/rack/proxy.rb:67:in `call'
+railties (6.0.5.1) lib/rails/engine.rb:527:in `call'
+puma (4.3.12) lib/puma/configuration.rb:228:in `call'
+puma (4.3.12) lib/puma/server.rb:727:in `handle_request'
+puma (4.3.12) lib/puma/server.rb:476:in `process_client'
+puma (4.3.12) lib/puma/server.rb:332:in `block in run'
+puma (4.3.12) lib/puma/thread_pool.rb:134:in `block in spawn_thread'
